@@ -12,10 +12,13 @@ a{
   height: 900px;
 }
 .panel{
+  top: 0;
+  padding: 0;
   float: left;
   width: 100%;
   height: 10%;
   background-color: #3752D9;
+  position: fixed;
 }
 .contenido{
   float: left;
@@ -30,11 +33,11 @@ a{
 
 /*PANEL */
 .logoPanel{
-  width: 500px;
+  width: 340px;
 }
 .usuarioPanel{
   float: right;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 50px;
   color: #FFF;
 }
@@ -52,3 +55,34 @@ a{
 }
 
 /*CONTENIDO */
+.contenido{
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.tituloContenido{
+  color: #5E5E5E;
+  background-color: #FFF;
+  position: fixed;
+}
+.videosContenido{
+  width: 60%;
+  height: 200px;
+  margin-top: 50px;
+  border: 3px solid #3752D9;
+  text-decoration: none;
+}
+.playContenido{
+  width: 260px;
+  height: 200px;
+}
+.videoC{
+  float: left;
+  width: 35%;
+  height: auto;
+}
+.descripcionC{
+  float: left;
+  width: 65%;
+  height: auto;
+}
