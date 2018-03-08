@@ -86,3 +86,17 @@ a{
   width: 65%;
   height: auto;
 }
+
+/* FORMULARIO */
+.formularioIniciar{
+  display: flex;
+  justify-content: center;
+}
+.txtIniciar{
+  font-size: 20px;
+  font-weight: bold;
+}
+.inputIniciar{
+  height: 20px;
+  font-size: 15px;
+}
