@@ -5,6 +5,11 @@ $("#irInicio").click(function(e) {
   $('#contenido').load('modulos/inicio/index.html');
 });
 
+$("#busqueda").click(function(e) {
+  $('#contenido').load('modulos/busqueda/index.html');
+  $('#buscador').val('');
+});
+
 $("#registro").click(function(e) {
   swal({
     confirmButtonText: 'ACEPTAR',
