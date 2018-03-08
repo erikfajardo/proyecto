@@ -147,3 +147,23 @@ a{
   display: flex;
   justify-content: center;
 }
+
+/* VER VIDEO */
+.verVideo{
+  color: #5E5E5E;
+  margin-top: 60px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+.videoCon{
+  width: 100%;
+}
+.videoConD{
+  float: left;
+  width:40%;
+}
+.videoConI{
+  float: left;
+  width: 60%;
+}
