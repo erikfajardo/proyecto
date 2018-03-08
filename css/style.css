@@ -59,6 +59,10 @@ a{
   color: #3752D9;
   font-weight: bold;
 }
+.botonBuscar:hover{
+  background-color: #3752D9;
+  color: #FFF;
+}
 .buscardorPanel{
   margin-right: 10px;
   height: 30px;
@@ -155,6 +159,9 @@ a{
   margin-left: 20px;
   display: flex;
   justify-content: center;
+}
+.reproductor{
+  width: 450px;
 }
 .videoCon{
   width: 100%;
