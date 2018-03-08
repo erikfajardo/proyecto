@@ -10,6 +10,7 @@ a{
 .buitreBtn{
   background-color: #3752D9;
   color: #FFF;
+  height: 38px;
 }
 .buitreBtn:hover{
   background-color: #FFF;

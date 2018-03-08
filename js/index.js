@@ -41,5 +41,4 @@ $("#inicio").click(function(e) {
   $('#modulos').load('modulos/sesion/iniciar.html');
 });
 
-
 });
