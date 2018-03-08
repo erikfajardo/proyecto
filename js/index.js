@@ -3,8 +3,6 @@ $('#contenido').load('modulos/inicio/index.html');
 
 $("#irInicio").click(function(e) {
   $('#contenido').load('modulos/inicio/index.html');
-})
-  $('#modulos').load('modulos/sesion/registrar.html');
 });
 
 $("#registro").click(function(e) {

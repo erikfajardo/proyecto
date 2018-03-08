@@ -7,6 +7,15 @@ body{
 a{
   text-decoration: none;
 }
+.buitreBtn{
+  background-color: #3752D9;
+  color: #FFF;
+}
+.buitreBtn:hover{
+  background-color: #FFF;
+  color: #3752D9;
+  height: 38px;
+}
 .pagina{
   width: 100%;
   height: 900px;
@@ -99,4 +108,35 @@ a{
 .inputIniciar{
   height: 20px;
   font-size: 15px;
+}
+
+/* USUARIO */
+.usuario{
+  color: #5E5E5E;
+  margin-top: 60px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+.panelUsCon{
+  width: 100%;
+}
+.panelUsConD{
+  float: left;
+  width: 20%;
+}
+.panelUsConI{
+  float: left;
+  width: 70%;
+  margin-left: 10%;
+}
+.imgUser{
+  width: 200px;
+  height: 200px;
+  border-radius: 1px #000;
+}
+.tituloUsuario{
+  color: #5E5E5E;
+  background-color: #FFF;
+  margin-bottom: -5%;
 }
