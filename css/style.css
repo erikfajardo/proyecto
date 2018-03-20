@@ -174,3 +174,9 @@ a{
   float: left;
   width: 60%;
 }
+/*movil*/
+@@media screen and(max-width:400px) {
+body{
+  background-color: gray;
+}
+}
