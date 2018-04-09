@@ -6,19 +6,25 @@
     <link rel="shortcut icon" href="images/icono.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="sweetalert/dist/sweetalert2.min.css">
-     <link rel="stylesheet" href="fonts/styleFont.css">
+    <link rel="stylesheet" href="fonts/styleFont.css">
+    <link rel="stylesheet" href="fonts/styleFont2.css">
   </head>
   <body>
 <main class="pagina">
   <section class="panel" id="panel">
     <div class="contenidoPanel">
       <img src="images/logo.png" alt="" class="logoPanel" id="irInicio">
+      <img src="images/logo_buitre.png" alt="" class="logoPanelbuitre" id="irInicio">
       <div class="usuarioPanel" id="usuarioPanel">
-        <input type="search" name="" value="" placeholder="Buscar..." class="buscardorPanel" id="buscador">
-        <input type="submit" value="Buscar" class="botonBuscar" id="busqueda">
-        <a class="blanco" href="#" id="registro">Registrarse</a> / <a class="blanco" href="#" id="inicio">Iniciar Sesión</a>
-      </div>
+        <div class="iconSearch">
+        <form>
+          <input type="search" name="" value="" placeholder="Buscar..." class="buscardorPanel" id="buscador">
+          <input type="submit" value="Buscar" class="botonBuscar" id="busqueda" ><span class="icon-search"></span></input>
+        </form>
+        </div>
+        <a class="blanco" href="#" id="registro"><span class="icon-user-plus"></span>Registrarse</a> / <a class="blanco" href="#" id="inicio"><span class="icon-user"></span>Iniciar Sesión</a>
     </div>
+  </div>
   </section>
   <div class="contenido" id="contenido"></div>
 </main>
