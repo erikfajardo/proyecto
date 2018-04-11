@@ -71,6 +71,7 @@ a{
   border-bottom: 2px solid gray;
   margin-right: 10px;
   height: 30px;
+
 }
 
 /*CONTENIDO */
@@ -204,9 +205,35 @@ a{
     background-color: #3752D9;
     position: fixed;
   }
-  .buscardorPanel, .botonBuscar{
-    display: none;
+  .buscardorPanel {
+    border: none;
+    border-bottom: 2px solid #2c2c2ce6;
+    background: fixed;
+    color: black;
+    position: fixed;
+    top: 5px;
+    right: 80px;
+    width: 40%;
+    border-radius: 5% 5% 5% 3%;
   }
+  <buscardorPanel:hover{
+    
+  }
+  .buscardorPanel:focus{
+    background: #c4c4c6;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  }
+  .botonBuscar{
+    position: fixed;
+    top: 5px;
+    right: 46px;
+  }
+  .usuarioPanel {
+    float: right;
+    margin: 0px;
+    color: #FFF;
+}
   .botonBuscar {
 
     margin-right: 0px;
@@ -215,8 +242,15 @@ a{
     background-color: #FFF;
     color: #3752D9;
     font-weight: bold;
-    display: none;
 
+
+}
+/*icono de sesion */
+.icon-user{
+  position: fixed;
+top: 10px;
+right: 10px;
+font-size: 26px;
 }
   /*contenido*/
   .videosContenido {
