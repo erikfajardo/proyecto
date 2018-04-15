@@ -61,11 +61,13 @@ a{
   background-color: #FFF;
   color: #3752D9;
   font-weight: bold;
+  width: 45px;
 }
-.botonBuscar:hover{
-  background-color: #3752D9;
+.botonBuscar:active, .botonBuscar:hover{
+  background-color: #3333a2;
   color: #FFF;
 }
+
 .buscardorPanel{
   border: none;
   border-bottom: 2px solid gray;
@@ -181,7 +183,7 @@ a{
   width: 60%;
 }
 /*movil*/
-@media screen and (max-width:400px) {
+@media (max-width:400px) {
   body{
     margin: 0;
 
@@ -214,13 +216,17 @@ a{
     top: 5px;
     right: 80px;
     width: 40%;
-    border-radius: 5% 5% 5% 3%;
+    border-radius: 5%;
   }
-  <buscardorPanel:hover{
-    
+
+  /*cambio de color puntero en posicion de elemento*/
+  .buscardorPanel:hover{
+    background: #eae3e3;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
   }
   .buscardorPanel:focus{
-    background: #c4c4c6;
+    background: #eae3e3;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
   }
@@ -233,15 +239,20 @@ a{
     float: right;
     margin: 0px;
     color: #FFF;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
   .botonBuscar {
 
     margin-right: 0px;
     height: 30px;
     border-radius: 5px;
-    background-color: #FFF;
-    color: #3752D9;
+    background-color: #3752D9;;
+    color: #FFF;
     font-weight: bold;
+    border: none;
 
 
 }
@@ -251,6 +262,71 @@ a{
 top: 10px;
 right: 10px;
 font-size: 26px;
+}
+/*.users-in{
+  width: 10em;
+  overflow: hidden;
+  position: fixed;
+  top: 42px;
+  right: 32px;
+  font-size: 16px;
+}*/
+.users-in{
+  width: 10em;
+  overflow: hidden;
+  position: fixed;
+  top: 42px;
+  right: 32px;
+  font-size: 16px;
+  background: #3b4f87;
+}
+.users-in{
+  height: 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.users-in a{
+  padding: 6px;
+  display: inline-block;
+  width: 145px;
+}
+.users-in a:hover{
+color: #000;
+background: #4d5e90;
+}
+.users-in:focus{
+  height: 3.9em;
+  padding-top: 0px;
+  padding-right: 1.5em;
+  position: fixed;
+  top: 42px;
+  right: 32px;
+  font-size: 16px;
+}
+.icon-user:hover{
+  cursor: pointer;
+}
+.users-in:before {
+  content: "x";
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  font-size: 20px;
+}
+.icon-user:focus + .users-in{
+  position: fixed;
+  top: 42px;
+  right: 32px;
+  font-size: 16px;
+  background: #3b4f87;
+  padding-right: 1.5em;
+  height: 3.9em;
+}
+.uses-in:hover{
+  font-size: 16px;
+  background: #3b4f87;
 }
   /*contenido*/
   .videosContenido {
