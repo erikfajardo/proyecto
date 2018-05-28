@@ -32,7 +32,7 @@ a{
   height: 13%;
   max-height: 190px;
   min-height: 78px;
-  background-color: #3752D9;
+  background-color: #413E70;
   position: fixed;
 }
 .contenido{
@@ -84,35 +84,33 @@ a{
   display: none;
 }
 /*CONTENIDO */
-.contenido{
-  margin-top: 99px;
-  margin-left: 40px;
-  margin-right: 40px;
+.videosContenido {
+    width: 250px;
+    height: 300px;
+    margin: 50px 20px;
+    border: 1px solid #413E70;
+    border-radius: 1%;
+    text-decoration: none;
+    display:inline-block;
 }
-.tituloContenido{
-  color: #5E5E5E;
-  position: inherit;
-}
-.videosContenido{
-  width: 60%;
-  height: 200px;
-  margin-top: 50px;
-  border: 3px solid #3752D9;
-  text-decoration: none;
-}
-.playContenido{
-  width: 260px;
-  height: 200px;
-}
-.videoC{
+.videoC {
   float: left;
-  width: 35%;
+    width: 79%;
+    height: auto;
+    margin: 1% 10.5%;
+}
+.playContenido {
+  width: 100%;
   height: auto;
 }
-.descripcionC{
+h3{
+font-size: 18px;
+}
+.descripcionC {
   float: left;
-  width: 65%;
+  width: 90%;
   height: auto;
+  display: none;
 }
 
 /* FORMULARIO */
@@ -201,8 +199,8 @@ a{
       padding: 0;
       float: left;
       width: 100%;
-      height: 15%;
-      background-color: #3752D9;
+      height: 21%;
+      background-color: #413E70;
       position: fixed;
 
   }
@@ -260,7 +258,7 @@ a{
     margin-right: 0px;
     height: 30px;
     border-radius: 5px;
-    background-color: #3752D9;;
+    background-color: #413E70;;
     color: #FFF;
     font-weight: bold;
     border: none;
@@ -341,13 +339,55 @@ background: #4d5e90;
   background: #3b4f87;
 }
   /*contenido*/
-  .videosContenido {
+  .contenido{
+    margin-top: 99px;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+  .tituloContenido{
+    color: #5E5E5E;
+    position: inherit;
+  }
+  h2{
+    margin: 7px 0 0 0;
+    width: 404px;
+  }
+  h3 {
+    font-size: 100%;
+  }
+  .videosContenido{
+    width: 90%;
+    height: auto;
+    margin: 2px 0 50px;
+    border: 1px solid #413E70;
+    border-radius: 1%;
+    text-decoration: none;
+    max-height: 369px;
+  }
+  .playContenido{
+    width: 100%;
+    height: 100%;
+  }
+  .videoC{
+    float: left;
+    width: 34%;
+    height: auto;
+    margin: 2% 2.5%;
+    max-width: 217px;
+    max-height: 217px;
+  }
+  .descripcionC{
+    float: left;
+    width: 65%;
+    height: auto;
+  }
+  .contenidoPanel {
       width: 40%;
       height: 45%;
-      margin-top: 50px;
-      border: 1px solid #3752D9;
+      border: 1px solid #413E70;
       text-decoration: none;
   }
+  /*
   .videoC {
     float: left;
       width: 79%;
@@ -365,6 +405,6 @@ h3{
     float: left;
     width: 90%;
     height: auto;
-}
+}*/
 
 }
